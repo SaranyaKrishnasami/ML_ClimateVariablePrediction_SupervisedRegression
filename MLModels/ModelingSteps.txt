@@ -1,0 +1,14 @@
+Modeling Steps:
+
+1) Acquire Dataset
+  Ensure the dataset is well-sampled and representative of the ML task you are tackling. Identify appropriate metrics to evaluate model performance.
+2) Perform Exploratory Data Analysis (EDA)
+  Check for Null Values: Identify and handle missing values through imputation to maintain data integrity.
+  Categorical Features: Label encode or one-hot encode categorical features for better model compatibility.
+3) Feature Engineering
+  Feature Scaling: Normalize features, especially for distance-based algorithms, to ensure consistency (e.g., meters vs. kilometers).
+  Feature Selection: Apply techniques like regularization or dimensionality reduction to enhance model performance and reduce overfitting.
+4)Create Baseline Model: Develop a simple model to set a performance baseline for comparison.
+  Train and Test Models: Evaluate different models using the test dataset and select the best-performing one.
+  Document the Modeling: Keep detailed records of model development processes, including decisions and results.
+  Prepare Pipelines: Design and implement pipelines to integrate the model into the application seamlessly.
